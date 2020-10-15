@@ -1,0 +1,145 @@
+<html>
+<head>
+	<title>Tugas 5</title>
+</head>
+<style>
+.h1{
+	margin: auto;
+	text-align: center;
+	background: red;
+
+}
+.materi{
+	box-shadow: 0px 0px 7px 1px;\
+	width: 20%;
+	height: 70%;
+	font-size: 20;
+	font-family: "lucida fax";
+	margin: 8%;
+	background: #993366;
+	color: #ffcc66;
+	
+}
+.button{
+                position: relative;
+                padding: 6px 10px 5px 10px;
+                display: inline-block;
+                margin-right: 7px;
+                border-radius: 1px;
+                }
+                
+.end{
+                position: relative;
+                width: 200px;
+                display: inline-block;
+                float: left;
+                top: 20px;
+                margin-bottom: 5px;;
+                margin: auto;
+                margin-left: 45%;
+                font-family: sans-serif;
+                font-size: 10px;
+              }
+              .bg-green{
+                background-color: #33cc33;
+                color: white;
+                box-shadow: 0 0 7px 1px green;
+                border: 1px solid black;
+              }
+              .bg-red{
+                 background-color: #ff00ff;
+                color: white;
+                box-shadow: 0 0 5px 1px #ff0000;
+                border: 1px solid black;
+              }
+              .border-red{
+                color: #33cc33;
+                background-color: white;
+                border: 1px solid black;
+              }
+
+</style>
+<body bgcolor="Violet">
+	<div class="h1"><h1>Tugas PWPB</h1></div>
+<div class="tabel">
+	<table border="1" align="center" width="40%" height="20%">
+<tr align="center" bgcolor="#9900FF">
+    <td> Nama</td>
+    <td> Arif Fhadillah</td>
+    </tr>
+<tr align="center" bgcolor="99FF33">
+	<td> Kelas</td>
+	<td> XI RPL 3</td>
+    </tr>	
+<tr align="center" bgcolor="99FF33">
+	<td> Mapel</td>
+	<td> PWPB</td>
+</tr>
+</table>
+</div>
+<hr>
+<div class="materi">
+      <ol><br>
+       <li>Sebutkan Kegunaan Radio di HTML ?<br>
+      	Tag input type radio berfungsi untuk membuat tombol radio atau tombol pilihan yang diisi dengan cara memilih dari salah satu tombol radio yang ada. Radio biasa digunakan untuk pilihan yang membatasi user untuk memilih satu dari pilihan yang ada.<br><br>
+      	<li>Sebutkan Kegunaan _blank di HTML ?<br>
+      		 _blank berfungsi untuk melakukan link ke page lain dan membukanya pada jendela baru<br><br>
+        <li>Sebutkan Kegunaan text area di HTML ?<br>
+        	Objek form textarea digunakan untuk membuat text inputan yang bisa menampung lebih dari 1 baris inputanBiasanya textarea digunakan untuk inputan yang panjang, seperti komentar, keterangan, atau catatan.<br><br>
+        <li>Sebutkan kegunaan fieldset di HTML ?<br>
+        	yaitu sebuah tag yang berfungsi untuk mengelompokan beberapa elemen yang terdapat didalam sebuah form.
+        </div>
+
+        <h2 style align="center">FORM PENDAFTARAN ANGGOTA BARU</h2>
+
+        <fieldset style="width: 60%; margin:auto";>
+				<legend align ="center"><p><b>Input Data</b></p></legend>
+				<form method="POST" action="hasil.php" name="form_kursus">
+				<table width="100%">
+				<tr>
+				<td><b>Nama</b></td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="42"> </td>
+				</tr>
+				<tr>
+					<td><b>Kelas</b></td>
+					<td>:</td>
+					<td><input type="radio" value="X" checked name ="x">X
+						<input type="radio" name="x" value="XI">XI
+						<input type="radio" name="x" value="XII">XII</td>
+					</tr>
+					
+					<tr>
+						<td><b>Jurusan</b></td>
+						<td>:</td>
+						<td><select size="1" name="jurusan">
+							<option>Pengelasan</option>
+							<option>Elektro</option>
+							<option>Kimia</option>
+							<option>RPL</option>
+							<option>Instrumentasi Logam</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><b>Pilihan Divisi</b></td>
+						<td>:</td>
+						<td><input type="checkbox" name="divisi" value="inggris">Medikom<br>
+						<input type="checkbox" name="divisi" value="ekonomi">Ekonomi<br>
+						<input type="checkbox" name="divisi" value="syiar">Syiar<br>
+						<input type="checkbox" name="divisi" value="kesenian">Kesenian</td>
+					</tr>
+					<tr>
+						<td><b>Tujuan</b></td>
+						<td>:</td>
+						<td><textarea name="tujuan" size="42"></textarea></td>
+					</tr>
+				</table>
+				<p><input type="submit" value="Submit" name="submit"><input type="reset" value="Reset" name="reset"></p>
+			</form>
+		</fieldset>
+	
+<div class="end">
+  <a href="Arif Fhadillah_Tugas 4.html"class="button border-red">BACK</a>
+    <a href="Arif Fhadillah_Tugas 7.html" class="button bg-green">NEXT</a></div>
+</body>
+</html>

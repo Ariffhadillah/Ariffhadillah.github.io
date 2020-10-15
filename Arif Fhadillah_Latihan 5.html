@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<center><h2>Formulir Pendaftaran</h2></center>
+		<title>Latihan 5</title>
+		<body bgcolor="#99ff66">
+			<fieldset style="width: 50%; margin:auto";>
+				<legend><p><b>Input Data</b></p></legend>
+				<form method="POST" action="hasil.php" name="form_kursus">
+				<table width="100%">
+				<tr>
+				<td><b>Nama</b></td>
+				<td>:</td>
+				<td><input type="text" name="nama" size="39" required placeholder="-----Masukkan Nama-----"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>:</td>
+					<td><input type="radio" value="L" checked name="jkl">Laki-laki
+						<input type="radio" name="jkl" value="p">Perempuan</td>
+					</tr>
+					<tr>
+						<td>Alamat</td>
+						<td>:</td>
+						<td><textarea name="alamat" size="39"></textarea></td>
+					</tr>
+					<tr>
+						<td>Propinsi</td>
+						<td>:</td>
+						<td><select size="1" name="propinsi">
+							<option>Jawa Barat</option>
+							<option>Jawa Tengah</option>
+							<option>Jawa Timur</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>Kelas</td>
+						<td>:</td>
+						<td><input type="text" name="nama" size="60" value="CDM LP31"readonly></td>
+					</tr>
+					<tr>
+						<td>Pilihan Kursus</td>
+						<td>:</td>
+						<td><input type="checkbox" name="kursus" value="inggris">Bahasa Inggris<br>
+						<input type="checkbox" name="kursus" value="komputer">Komputer</td>
+					</tr>
+					<tr>
+						<td>Pilihan Kursus </td>
+							<td>:</td>
+							<td><input type="file" name="kursus" value="inggris">*file harus gambar</td>
+						</tr>
+					</table>
+					<p><input type="submit" value="Submit" name="submit"><input type="reset" value="Reset" name="reset"></p>
+					<a href="ukuran_huruf.html"target="_blank">Lihat Ukuran Huruf</a>
+				</form>
+			</fieldset>
+
+		<div class="end">
+  <a href="Arif Fhadillah_Latihan 4.html"class="button border-red">BACK</a>
+  <a href="Arif Fhadillah_Latihan 6.html" class="button bg-green">NEXT</a></div>
+ 
+ <style>
+ .button{
+                position: relative;
+                padding: 6px 10px 5px 10px;
+                display: inline-block;
+                margin-right: 7px;
+                border-radius: 1px;
+                }
+                
+.end{
+                position: relative;
+                width: 200px;
+                display: inline-block;
+                float: left;
+                top: 20px;
+                margin-bottom: 5px;;
+                margin: auto;
+                margin-left: 45%;
+                font-family: sans-serif;
+                font-size: 10px;
+              }
+              .bg-green{
+                background-color: #33cc33;
+                color: white;
+                box-shadow: 0 0 7px 1px green;
+                border: 1px solid black;
+              }
+              .bg-red{
+                 background-color: #ff00ff;
+                color: white;
+                box-shadow: 0 0 5px 1px #ff0000;
+                border: 1px solid black;
+              }
+              .border-red{
+                color: #33cc33;
+                background-color: white;
+                border: 1px solid black;
+              }
+          </style>
+           </body>
+           </fieldset>
+	    </form>
+	</head>
+</html>
